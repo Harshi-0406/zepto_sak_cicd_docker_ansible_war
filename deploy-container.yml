@@ -3,11 +3,11 @@
 # Developed & Automated by: sak_shetty
 
 - name: Deploy latest container from DockerHub
-  hosts: dev
+  hosts: zepto
   become: yes
 
   vars:
-    container_name: "zepto_sak"
+    container_name: "zepto"
     image_name: "sakit333/zepto_sak:latest"   
     container_port: "8084"
     request_port: "8080"
