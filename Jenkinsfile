@@ -3,8 +3,8 @@ pipeline {
 
     environment {
         PROJECT_NAME = "zepto_sak_cicd_docker_ansible_war"
-        DOCKERHUB_USERNAME = "sakit333"
-        DOCKERHUB_REPO = "zepto_sak"
+        DOCKERHUB_USERNAME = "nehaswami"
+        DOCKERHUB_REPO = "zepto"
     }
     stages {
         stage("Build Docker Image") {
