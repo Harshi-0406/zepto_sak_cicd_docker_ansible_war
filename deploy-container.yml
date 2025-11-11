@@ -8,7 +8,7 @@
 
   vars:
     container_name: "zepto"
-    image_name: "sakit333/zepto_sak:latest"   
+    image_name: "zepto"   
     container_port: "8084"
     request_port: "8080"
 
