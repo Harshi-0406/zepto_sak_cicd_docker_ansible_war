@@ -3,7 +3,7 @@
 # Developed & Automated by: sak_shetty
 
 - name: Deploy latest container from DockerHub
-  hosts: dev
+  hosts: zepto
   become: yes
 
   vars:
